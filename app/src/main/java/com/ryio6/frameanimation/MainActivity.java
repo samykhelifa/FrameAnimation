@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if (frameAnimation.isRunning()) {
             frameAnimation.stop();
         } else {
-            frameAnimation.stop();
+           // frameAnimation.stop();
             frameAnimation.start();
         }
 
